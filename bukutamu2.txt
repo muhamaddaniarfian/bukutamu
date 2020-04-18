@@ -1,0 +1,7 @@
+1.fgets() mengembalikan fungsi garis dari file terbuka. The fgets()
+ fungsi berhenti kembali pada baris baru, pada panjang tertentu, atau EOF, mana yang lebih dulu.
+2. fwrite() menulis ke file terbuka. fungsi akan berhenti pada akhir file atau saat mencapai panjang tertentu, mana yang lebih dulu.
+ Fungsi ini mengembalikan jumlah byte yang ditulis, atau FALSE pada kegagalan.
+3.Fungsi fopen() digunakan untuk membuka sebuah file. Fungsi fclose() digunakan untuk menutup sebuah file.
+ Dalam PHP anda bisa membuka dan menutup sebuah file.
+4.fclose(file)Jangan lupa untuk menutup file sesudah anda membuka file tersebut.
